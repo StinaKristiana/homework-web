@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,700i&display=swap');
+@font-face {
+	font-family: "COUR";
+	src: url("./assets/Fonts/COUR___0.TTF");
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.App {
+	text-align: center;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.App-logo {
+	height: 40vmin;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #09d3ac;
+}
+
+.header-heading {
+}
+
+.header-heading h1 {
+	font-weight: 700;
+	font-style: italic;
+	font-size: 56px;
+	color: black;
+}
+
+.header-heading span {
+	padding: 5px 40px;
+	background-color: black;
+	color: white;
+}
+
+.header-heading p {
+	font-family: "COUR";
+	font-size: 31px;
+	width: 48%;
+	text-align: left;
+	float: right;
+	margin-right: 20%;
+	margin-top: 1%;
+}
+.header-2 {
+}
+.header-2 h1 {
+	font-weight: 700;
+	font-style: italic;
+	font-size: 31px;
+	color: black;
+	margin-top: 9%;
+}
+.header-2 p {
+	font-family: "COUR";
+	width: 40%;
+	font-size: 21px;
+	font-weight: lighter;
+	text-align: center;
+	float: right;
+	margin-right: 30%;
+	margin-top: 1%;
+}
+.nav-item {
+	margin: 0px 2vh;
+}
+
+.navigation {
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+	//  display: inline-block;
+	//  letter-spacing: 6px;
+	//  word-spacing: 0px;
+	//  margin-top:1%;
+	font-size: 1.6vh;
+}
+
+.navigation span {
+	// margin-top: ;
+	font-size: 2.9vh;
+	font-weight: 100;
+	color: rgba(0, 0, 0, .5);
+}
+.nav-bar {
+	margin: 0 auto;
+}
+.error-heading {
+	margin-left: 10%;
+	display: flex;
+	flex-direction: column;
+}
+.error-heading h1 {
+	font-family: "COUR";
+	text-decoration: underline;
+	text-align: center;
+	font-size: 55.43px;
+	text-align: left;
+}
+.error-heading p {
+	font-family: "COUR";
+	width: 80%;
+	font-size: 24px;
+	font-weight: lighter;
+	float: left;
+	margin-top: 1%;
+	text-align: left;
+	display: block;
+}
+.error-heading img {
+	width: 75vh;
+	height: 55vh;
+	margin-left: 5%;
+}
+
+.header-3 {
+	margin-left: 10%;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 5vh;
+}
+
+.header-3 h1 {
+	font-family: "COUR";
+	text-decoration: underline;
+	text-align: center;
+	font-size: 55.43px;
+	text-align: left;
+}
+.header-3 p {
+	font-family: "COUR";
+	width: 80%;
+	font-size: 24px;
+	font-weight: lighter;
+	float: left;
+	margin-top: 1%;
+	text-align: left;
+}
+.header-3 Button {
+	background-color: black;
+}
+.header-3 img {
+	width: 73vh;
+	height: 55vh;
+	margin-left: 5%;
+}
+
+.header-4 h1 {
+	font-family: "COUR";
+	text-decoration: underline;
+	text-align: right;
+	font-size: 55.43px;
+	margin-top: 15%;
+	margin-right: 5%;
+}
+.header-4 p {
+	font-family: "COUR";
+	text-align: right;
+	margin-top: 1%;
+	font-size: 24px;
+	margin-right: 5%;
+}
+
+.header-4 img {
+	width: 50%;
+	margin-top: -17%;
+	float: left;
+}
+
+.lip-image {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	margin-top: 15%;
+	height: 14vh;
+	margin-bottom: 1%;
+}
+
+.lip-image img {
+	position: absolute;
+	left: 51%;
+	margin-top: 2%;
+	height: 9vh;
+	transform: rotate(20deg);
+}
+
+.black {
+	background-color: black;
+}
+
+.black-1 {
+	margin-top: 1%;
+}
+.black-1 ul {
+	margin: 7%;
+}
+.black-1 a,
+li {
+	color: white;
+	list-style-type: none;
+	text-decoration: none;
+	text-align: left;
+	font-size: 6.7vh;
+	font-weight: 700;
+	font-style: italic;
+	margin: 0 0 3vh 0;
+}
+
+.black-2 {
+	margin-top: 1%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	padding-right: 15%;
+}
+.black-2 img {
+	width: 10vh;
+	height: 10vh;
+	display: flex;
+	align-items: flex-end;
+	transition-duration: 0.5s;
+}
+
+.black-2 img:hover {
+	transform: scale(1.15);
+	transition-duration: 0.5s;
+}
+
+.black-3 {
+}
+.black-3 p {
+	color: white;
+	font-family: "COUR";
+	text-decoration: underline;
+	font-size: 24px;
+}
+
+.btn-rotate {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 19vh;
+}
+
+.btn-rotate Button {
+	background-color: black;
+	border-radius: 0;
+	border: none;
+	padding: 1% 2%;
+	font-size: 1.8vh;
+	font-weight: bold;
+	font-style: italic;
+	margin: 1.4vh;
+	width: 10vh;
+	transition-duration: 0.5s;
+}
+
+.btn-more {
+	transform: rotate(-9deg);
+	margin-left: 4.5vh !important;
+	border: 2PX black solid;
+	transition-duration: 0.5s;
+}
+
+.btn-more:hover {
+	transform: rotate(-18deg);
+	margin-left: 4.5vh !important;
+	background-color: white;
+	border: 2PX black solid;
+	color: black;
+	transition-duration: 0.5s;
+}
+
+.btn-load {
+	transform: rotate(9deg);
+	margin-left: 3vh !important;
+	border: 2PX black solid;
+	transition-duration: 0.5s;
+}
+
+.btn-load:hover {
+	transform: rotate(18deg);
+	margin-left: 3vh !important;
+	background-color: white;
+	border: 2PX black solid;
+	color: black;
+	transition-duration: 0.5s;
+}
+
+.btn-read {
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	font-size: 1.26vh;
+	padding: 1vh 3.1vh;
+	margin-right: auto;
+	border: 2PX black solid;
+	background-color: black;
+}
+
+.btn-read:hover {
+	background-color: white;
+	border: 2PX black solid;
+	color: black;
+}
+
+.filter-row {
+	margin: 0 8%;
+}
+
+.column-art {
+	display: flex;
+	flex-direction: column;
+}
+.img-mix {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin: 1vh 0;
+	// width: fit-content;
+}
+
+.img-mix h1 {
+	font-family: "COUR";
+	text-decoration: underline;
+	font-size: 4.2vh;
+	width: 67.8vh;
+}
+.img-mix img {
+	// width: 67.8vh; //fullHD
+	// height: 50.8vh; //fullHD
+	width: 67.4vh; //HD
+	height: 50.8vh; //HD
+}
+
+.filter-book {
+	width: fit-content;
+}
+
+.filter-colorful {
+	align-items: flex-end;
+	text-align: right;
+	position: relative;
+	top: 16vh;
+	z-index: 1;
+}
+
+// @media only screen and (max-width: 1547px) { //fullHD
+@media only screen and (max-width: 1147px) {
+	//HD
+
+	.filter-colorful {
+		position: relative;
+		top: 0vh;
+	}
+}
+
+.filter-error {
+	align-items: center;
+	text-align: right;
+}
+
+.filter-skull {
+	margin-left: 16%;
+}
+
+.filter-moon {
+	align-items: flex-end;
+	text-align: right;
+	position: relative;
+	top: 16vh;
+	z-index: 1;
+}
+
+.filter-skulpt {
+	z-index: 0;
+}
+
+.btn Button {
+	margin-top: 2%;
+	margin-left: 5%;
+	width: 52px;
+	height: 52px;
+	background-color: white;
+	background-image: url(../src/assets/back.svg);
+	filter: invert(1);
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 2PX white solid;
+}
+.btn button:hover {
+	background-color: white;
+	border: 2PX black solid;
+	color: black;
+}
+.carousel p {
+	-webkit-transform: rotate(90deg);
+	float: left;
+	margin-top: 13%;
+	margin-left: 4%;
+	text-decoration: underline;
+	font-family: "COUR";
+	font-size: 2.7vh;
+}
+.img-carousel {
+	width: 779.875px;
+	height: 585.753px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.boldheader h1 {
+	font-size: 57.15px;
+	font-family: "COUR";
+	font-weight: bolder;
+	text-decoration: underline;
+	text-align: left;
+	margin-left: 8%;
+	margin-top: 2%;
+}
+.boldheader p {
+	font-size: 20px;
+	text-align: left;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.boldheader span {
+}
+boldheader Button {
+	margin-right: -1%;
+}
+.last-p p {
+	font-family: "COUR";
+	text-decoration: underline;
+	font-size: 21px;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 3%;
+}
+
+.btn-8 {
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	font-size: 1.90vh;
+	padding: 1.2vh 3.8vh;
+	margin-right: auto;
+	border: 2PX black solid;
+	background-color: black;
+	margin-left: 28%;
+}
+
+.btn-8:hover {
+	background-color: white;
+	border: 2PX black solid;
+	color: black;
+}
+
+.btn-9 {
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	font-size: 1.90vh;
+	padding: 1.2vh 3.8vh;
+	border: 2PX black solid;
+	background-color: rgb(0, 0, 0);
+	margin-left: 50%;
+}
+.btn-9 a {
+	color: white;
+}
+
+.btn-9:hover {
+	filter: invert(1);
+	background-color: black;
+	border: 2PX white solid;
+}
+
+.nav-item {
+	margin: 0px 2vh;
+	float: left;
+}
+
+.navi {
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+	//  display: inline-block;
+	//  letter-spacing: 6px;
+	//  word-spacing: 0px;
+	//  margin-top:1%;
+	font-size: 1.6vh;
+	float: left;
+}
+
+.navi span {
+	// margin-top: ;
+	font-size: 2.9vh;
+	font-weight: 100;
+	color: rgba(0, 0, 0, .5);
+	float: left;
+}
+.footer {
+	background-color: black;
+}
+.footer p {
+	font-family: "COUR";
+	text-decoration: underline;
+	font-size: 21px;
+	text-align: center;
+	color: white;
+}
+
+.arrow-btn {
+	width: 5vh;
+}
+.btn-2 {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+
+	height: 90%;
+	padding: 0;
+	margin-left: 0.1vh;
+}
+
+.btn-2 Button {
+	transform: rotate(180deg);
+	margin: 0;
+}
+
+.carousel-row {
+	padding-left: 5vh;
+}
+
+.carousel {
+	display: flex;
+	flex-direction: row;
+}
+.carousel-gutter {
+	padding: 0;
+}
+
+.fade-in {
+	-webkit-animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: fade-in-bottom 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade-in-bottom {
+	0% {
+		-webkit-transform: translateY(50px);
+		transform: translateY(50px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes fade-in-bottom {
+	0% {
+		-webkit-transform: translateY(50px);
+		transform: translateY(50px);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.fade-out {
+	-webkit-animation: fade-out-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: fade-out-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes fade-out-top {
+	0% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: translateY(-50px);
+		transform: translateY(-50px);
+		opacity: 0;
+	}
+}
+@keyframes fade-out-top {
+	0% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: translateY(-50px);
+		transform: translateY(-50px);
+		opacity: 0;
+	}
+}
+.btn-read1 {
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0;
+	font-size: 1.26vh;
+	padding: 1vh 3.1vh;
+	margin-right: auto;
+	border: 2PX black solid;
+	background-color: black;
+	float: right;
+	margin-right: 5%;
+}
+
+.btn-read1:hover {
+	background-color: white;
+	border: 2PX black solid;
+	color: black;
+}
+
+.black-text {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.black-text p {
+	width: 40vh;
+	text-align: right;
+}
+
+.black-text span {
+	font-family: "COUR";
+	font-size: 26px;
+	background: black;
+	color: white;
+}
